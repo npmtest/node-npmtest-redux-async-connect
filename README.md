@@ -1,6 +1,6 @@
 # npmtest-redux-async-connect
 
-#### test coverage for  [redux-async-connect (v0.1.13)](https://github.com/Rezonans/redux-async-connect)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-async-connect.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-async-connect) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-async-connect.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-async-connect)
+#### basic test coverage for  [redux-async-connect (v0.1.13)](https://github.com/Rezonans/redux-async-connect)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-async-connect.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-async-connect) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-async-connect.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-async-connect)
 
 #### It allows you to request async data, store them in redux state and connect them to your react component.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-redux-async-connect/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-redux-async-connect/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-redux-async-connect/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-redux-async-connect/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-async-connect/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-async-connect/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-redux-async-connect/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-redux-async-connect/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-async-connect/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-async-connect/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-redux-async-connect/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-redux-async-connect/build/coverage.html/index.html)
 
@@ -116,7 +116,8 @@
         "start": "babel-node example/server.js",
         "test": "npm run lint && karma start"
     },
-    "version": "0.1.13"
+    "version": "0.1.13",
+    "bin": {}
 }
 ```
 
